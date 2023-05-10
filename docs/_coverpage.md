@@ -1,13 +1,13 @@
-<img width="160px" style="border-radius: 50%" bor src="style/head_portrait.jpg">
+<img width="160px" style="border-radius: 50%" bor src="style/head.webp">
 
-# **Davis's Blog**
+# **林泽的个人博客**
 
-- 本文档是作者折腾 ```docsify```以来的学习历程<br>旨在为大家提供一个较完整的docsify框架结构<br>如果本文能为您得到帮助，请给予支持！
+- 人生是一场旅行，在乎的不是目的地，是沿途的风景以及看风景的心情！
 
-[![stars](https://badgen.net/github/stars/mochazi/docsify-demo?color=4ab8a1)](https://github.com/mochazi/docsify-demo)
-[![forks](https://badgen.net/github/forks/mochazi/docsify-demo?color=4ab8a1)](https://github.com/mochazi/docsify-demo)
+[![stars](https://badgen.net/github/stars/mochazi/docsify-demo?color=4ab8a1)](https://github.com/daline21)
+[![forks](https://badgen.net/github/forks/mochazi/docsify-demo?color=4ab8a1)](https://github.com/daline21)
 ![](https://img.shields.io/badge/%E6%91%B8%E9%B1%BC-%E7%A8%8B%E5%BA%8F%E5%91%98-green)
 
-[GitHub](https://github.com/mochazi/docsify-demo)
+[GitHub](https://github.com/daline21)
 [开始阅读](?id=中文文档)
 

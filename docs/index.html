@@ -34,7 +34,7 @@
       subMaxLevel: 2,   //目录最大级数
       maxLevel: 4,      //可配置最大支持渲染的标题层级
       homepage: 'zh-cn/README.md', //设置中文的README.md作为首页
-      
+
       //添加搜索功能，中文和英文文档同时搜索
       search: {
         paths: 'auto',
@@ -49,7 +49,7 @@
           '/zh-cn/':'😒 找不到结果',
           '/en-us/':'😒 No Results'
         },
-  
+
         depth: 4,         //搜索标题的最大层级
         maxAge: 86400000, // 过期时间，单位毫秒，默认一天
       },//增加搜索框
@@ -70,7 +70,7 @@
       'flexible-alerts': {
         style: 'flat'
       }
-   
+
     }
   </script>
 
@@ -78,7 +78,7 @@
 
   <!-- docsify表情包 -->
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
-  
+
   <!-- 复制代码到剪切板 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
 
@@ -98,19 +98,19 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-yaml.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/prism-properties.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs/components/matlab.min.js"></script>
-  
+
   <!-- CDN files for docsify-katex -->
   <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
-  
+
   <!-- 文档页脚增强 -->
   <script src="//cdn.jsdelivr.net/npm/docsify-footer-enh/dist/docsify-footer.min.js"></script>
-  
+
   <!-- 复制提醒 -->
   <script src="https://cdn.bootcss.com/sweetalert/1.1.3/sweetalert.min.js"></script>
   <script>
-    document.body.oncopy = function () { 
-      swal("复制成功 🎉", 
-        "若要转载或引用请务必保留原文链接，并申明来源。如果你觉得本仓库不错，那就来 Github 给个 star 吧 😊", 
+    document.body.oncopy = function () {
+      swal("复制成功 🎉",
+        "若要转载或引用请务必保留原文链接，并申明来源。如果你觉得本仓库不错，那就来 Github 给个 star 吧 😊",
         "success"); };
   </script>
 
@@ -120,10 +120,10 @@
       navigator.serviceWorker.register('sw.js')
     }
   </script>
-  
+
   <!-- 访问量统计 -->
   <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-            
+
 
   <!-- 置顶插件 -->
   <script src="style/jquery-1.11.3.min.js"></script>
