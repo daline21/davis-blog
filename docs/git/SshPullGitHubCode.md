@@ -21,7 +21,7 @@ git config --global user.email "2118523076@qq.com"
 cd C:\Users\Administrator
 ```
 
-参数写上自己的邮箱
+参数写上自己的邮箱，密码默认空即可
 
 ```shell
 ssh-keygen -t rsa -C "2118523076@qq.com"
