@@ -1,3 +1,11 @@
+# 配置hosts文件
+
+进入目录C:\Windows\System32\drivers\etc，编辑hosts文件，加入以下内容
+
+```text
+20.205.243.166  github.com
+```
+
 # 检查Git config是否配置
 
 ```shell
@@ -24,10 +32,11 @@ cd C:\Users\Administrator
 参数写上自己的邮箱，密码默认空即可
 
 ```shell
-ssh-keygen -t rsa -C "2118523076@qq.com"
+ssh-keygen -t ed25519 -C "2118523076@qq.com"
 ```
 
 # GitHub关联SSH
+
 进入GitHub的个人设置，找到【SSH and GPG keys】， 然后点击新增SSH，进入如下界面，title输入你对于当前SSH key的备注，下面的key就粘贴上一步生成的id_rsa.pub内的内容
 ![](imgs/img1.png)
 
@@ -35,4 +44,16 @@ ssh-keygen -t rsa -C "2118523076@qq.com"
 
 ```shell
 git remote set-url origin git@github.com:daline21/davis-blog.git
+```
+
+# 验证SSH是否配置成功
+
+```shell
+ssh -T git@github.com
+```
+
+若显示以下内容则表示配置成功
+
+```text
+Hi daline21! You've successfully authenticated, but GitHub does not provide shell access.
 ```
