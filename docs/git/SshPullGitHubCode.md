@@ -37,7 +37,7 @@ ssh-keygen -t ed25519 -C "2118523076@qq.com"
 
 # GitHub关联SSH
 
-进入GitHub的个人设置，找到【SSH and GPG keys】， 然后点击新增SSH，进入如下界面，title输入你对于当前SSH key的备注，下面的key就粘贴上一步生成的id_rsa.pub内的内容
+进入GitHub的个人设置，找到【SSH and GPG keys】， 然后点击新增SSH，进入如下界面，Tittle输入你对于当前SSH key的备注，下面的key就粘贴上一步生成的id_ed25519.pub内的内容
 ![](imgs/img1.png)
 
 # 将https项目切换成ssh方式
