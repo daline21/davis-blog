@@ -1,4 +1,4 @@
-# 撤销最新Commit提交
+# 撤销最新commit提交
 
 ```shell
 git reset --soft HEAD^
