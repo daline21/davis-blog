@@ -6,6 +6,7 @@
 
 - Git使用笔记
     - [SSH方式拉取GitHub代码](git/SshPullGitHubCode.md)
+    - [Git常用命令](git/OftenUsedCommand.md)
     
 - 华为机试
     - [简单的压缩字符串](algorithm/hwtest/SimpleCompressString.md)
